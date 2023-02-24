@@ -1,0 +1,23 @@
+development:
+  password: shptka_8e785c310c767ba67ccba753e255f354
+  theme_id: "145029497153"
+  store: lucy-dawn.myshopify.com
+  directory: src
+  ignore_files:
+  - '*.gif'
+  - '*.jpg'
+  - config/settings_data.json
+production:
+  password: shptka_b4a458b26ee68848562b60758af3fa7a
+  theme_id: "145025925441"
+  store: lucy-dawn.myshopify.com
+  directory: ./src
+  ignore_files:
+  - config/settings_data.json
+test:
+  password: shptka_b4a458b26ee68848562b60758af3fa7a
+  theme_id: "145025925441"
+  store: lucy-dawn.myshopify.com
+  directory: ./src
+  ignore_files:
+  - config/settings_data.json
